@@ -28,9 +28,11 @@ public class MazeEnter : MonoBehaviour
         {
             //move player
             transform.position = new Vector3(3.5f, 0, -1);
+            //delete door
             Destroy(gameObject);
         }
         
+
         /*
         if (other.gameObject.tag == purpleTag)
         {
