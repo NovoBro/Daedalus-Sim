@@ -8,6 +8,6 @@ public class Rotate : MonoBehaviour
     public void rotateTile()
     {
         //interior = this.transform.Find("Rotate");
-        interior.transform.Rotate(90.0f, 0.0f, 0.0f, Space.Self);
+        interior.transform.Rotate(0.0f, 90.0f, 0.0f, Space.Self);
     }
 }
