@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Maze.unity
+    guid: b9d1579dac47c624cb1c84dac581e29b
+  - enabled: 1
+    path: Assets/Scenes/Maze 2.unity
+    guid: 05067b26b05f50a4a8eda9fe8a336d1a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7f64ab93fe2f4b74fb727fe01d2dfa99, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 50b3b79e7ae6c7343b51cc315dd32d32, type: 2}
